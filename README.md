@@ -1377,3 +1377,57 @@
 
 ### Contributing to Android Interview Questions
 Just make pull request. You are in!
+
+### Reddit advice
+
+Congrats on getting that interview!
+
+First off, always feel comfortable asking your recruiter how the interview will be structured/what will it consist of, and if you need your computer or not. You can still follow up and ask up until the point of your interview.
+
+If this is your first round "phone screen", then you'll probably just go over your experience in Android development, when you started developing, how you got into it, what projects have you worked on, ect.
+
+There's also a chance that they'll smoke screen you with a few basic Android questions such as ->
+
+    difference between Activity and Fragment
+
+    lifecycles of Activities and fragments
+
+    What are the two types of intents and when are they used
+
+    how to pass data from an Activity to Fragment, or fragment to Fragment
+
+    MVVM architecture, why it's used, and all it's components such as ViewModels
+
+    why would you use a repository
+
+    why would you use ViewModels
+
+    why use dependency injection like dagger
+
+    why use coroutines or rxJava or live data
+
+    How to create a singleton in Kotlin
+
+    How to create a singleton Java
+
+    why use a hashmap
+
+    queue vs stack Ect, ect.
+
+If you already did the phone screen, then the next round will be a coding challenge. Asking your recruiter for any details here before your interview is extremely beneficial.
+
+If you only have a day or two prepare, then I would do the following:
+
+Continue to expand and solidify the above basics.
+
+Create a simple app, with both a main activity, a fragment, a ViewModel, a recyclerView, and a network call. Fetch data and display it in a MVVM fashion with a repository + live data. (There are many examples of this on the official android developer docs)
+
+Also freshen up your data structures and algorithms. This includes doing leetcode with at least one or two "easy" questions. "Two sum" and "palindrome" questions are good for beginners on leetcode.
+
+The above listed items, while usually a must to know, make up the foundation of the kind of questions you'll be asked. Interviews vary by company and by position.
+
+During a coding challenge, make sure you understand the task, and that you are verbally engaging with the interviewer. Asking lots of clarifying questions when possible is key.
+
+I don't have much time to go more in detail, but one last thing I wanted to note:
+
+I'm sure you'll rock this interview, but in case you don't, it's completely ok. Failing Android interviews is extremely common for everyone until you get to L4-L5 (think very high senior, staff, principal, or architect levels). Just make sure to keep a note of every question asked, so you can better prepare for the next interview. Tech interviews require tons of studying. So study hard, learn from your interview mistakes, and you'll guaranteed to eventually get that offer
